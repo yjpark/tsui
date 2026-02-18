@@ -1,0 +1,132 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "bacon": {
+        "pkg-path": "bacon"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "bacon",
+      "broken": false,
+      "derivation": "/nix/store/g5lr4j3zgjv4igfrj95rvad8ipjrgssi-bacon-3.22.0.drv",
+      "description": "Background rust code checker",
+      "install_id": "bacon",
+      "license": "AGPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a82ccc39b39b621151d6732718e3e250109076fa",
+      "name": "bacon-3.22.0",
+      "pname": "bacon",
+      "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+      "rev_count": 945868,
+      "rev_date": "2026-02-13T18:55:12Z",
+      "scrape_date": "2026-02-15T04:39:02.144578Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.22.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/d1ikw8xrns7cbfqypwcgxcchwzvdq7cg-bacon-3.22.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bacon",
+      "broken": false,
+      "derivation": "/nix/store/m2b6j7zm4rw1izcz7z3dqlm2qjis2x1q-bacon-3.22.0.drv",
+      "description": "Background rust code checker",
+      "install_id": "bacon",
+      "license": "AGPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a82ccc39b39b621151d6732718e3e250109076fa",
+      "name": "bacon-3.22.0",
+      "pname": "bacon",
+      "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+      "rev_count": 945868,
+      "rev_date": "2026-02-13T18:55:12Z",
+      "scrape_date": "2026-02-15T05:11:38.143856Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.22.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/kmhjc2p8hxf3hkdja6cqi0khqda5jxv4-bacon-3.22.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bacon",
+      "broken": false,
+      "derivation": "/nix/store/d2qhsydk0n7zsl3rmgwpxqynpbk4rf8r-bacon-3.22.0.drv",
+      "description": "Background rust code checker",
+      "install_id": "bacon",
+      "license": "AGPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a82ccc39b39b621151d6732718e3e250109076fa",
+      "name": "bacon-3.22.0",
+      "pname": "bacon",
+      "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+      "rev_count": 945868,
+      "rev_date": "2026-02-13T18:55:12Z",
+      "scrape_date": "2026-02-15T05:45:45.744864Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.22.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/5ymilhncmbc9iw2il7zj5wzpv7alnhd8-bacon-3.22.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "bacon",
+      "broken": false,
+      "derivation": "/nix/store/8x7x73hhfrjv2cvlil8rxhhnwiah9fwx-bacon-3.22.0.drv",
+      "description": "Background rust code checker",
+      "install_id": "bacon",
+      "license": "AGPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=a82ccc39b39b621151d6732718e3e250109076fa",
+      "name": "bacon-3.22.0",
+      "pname": "bacon",
+      "rev": "a82ccc39b39b621151d6732718e3e250109076fa",
+      "rev_count": 945868,
+      "rev_date": "2026-02-13T18:55:12Z",
+      "scrape_date": "2026-02-15T06:21:08.362213Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.22.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/19ca86jyjzy2r6kppssjc0y9r8knxcpf-bacon-3.22.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
