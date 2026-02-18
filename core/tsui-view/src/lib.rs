@@ -1,14 +1,10 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+use tsui_model::Model;
+use tsui_viewmodel::ViewModel;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+pub trait View {
+    type Model: Model;
+    type ViewModel: ViewModel;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+    fn get_model(&self) -> &Self::Model;
+    fn get_viewmodel(&self) -> &Self::ViewModel;
 }

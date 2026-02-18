@@ -1,14 +1,11 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+use facet::Shape;
+use facet_value::Value;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+pub trait Model {
+    const SHAPE: &'static Shape;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+    fn get_value(&self) -> Value;
+
+    fn get_field(&self, key: &str) -> Option<Value>;
+    fn set_field(&self, key: &str, value: Value) -> Option<Value>;
 }

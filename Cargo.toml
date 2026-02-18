@@ -33,6 +33,8 @@ tsui-app = { path = "core/tsui-app", version = "0.1.0-dev" }
 log = { version = "0.4.29", features = ["kv"] }
 rootcause = "0.11.1"
 facet = "0.43.2"
+facet-value = "0.43.2"
+
 
 # Tests
 rstest = "0.26.1"

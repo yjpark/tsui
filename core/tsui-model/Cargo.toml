@@ -9,3 +9,5 @@ repository.workspace = true
 authors.workspace = true
 
 [dependencies]
+facet = { workspace = true }
+facet-value = { workspace = true }
