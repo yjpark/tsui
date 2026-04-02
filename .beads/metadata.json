@@ -1,7 +1,0 @@
-{
-  "database": "dolt",
-  "backend": "dolt",
-  "dolt_mode": "server",
-  "dolt_database": "tsui",
-  "project_id": "00be5892-f740-4334-870c-fce1527b53ed"
-}
