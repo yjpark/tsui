@@ -35,3 +35,6 @@ docs/dist/
 # bacon diagnostics export
 .bacon-claude-diagnostics
 staging/
+
+# Jig skills symlinked into .claude on devShell entry
+.claude/skills/
